@@ -18,8 +18,10 @@ html {
 }
 
 #wrapper {
-  width: 100vw;
-  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 120rem;
+  margin: 0 auto;
 }
 .container {
   overflow-x: hidden;
