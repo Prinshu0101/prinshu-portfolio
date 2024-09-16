@@ -18,10 +18,8 @@ html {
 }
 
 #wrapper {
-  overflow-x: hidden;
-  overflow-y: auto;
-  width: 120rem;
-  margin: 0 auto;
+  width: 100vw;
+  height: 100vh;
 }
 .container {
   overflow-x: hidden;
@@ -290,6 +288,7 @@ button.button {
   align-items: center;
   height: fit-content;
   width: 100%;
+  min-width: 120rem;
   height: fit-content;
   background-color: rgba(0, 0, 0, 0.237);
   padding-top: 5rem;
@@ -308,6 +307,7 @@ button.button {
   gap: 15rem;
   height: fit-content;
   width: 120rem;
+  min-width: 110rem;
   height: fit-content;
 }
 .project {
@@ -464,6 +464,7 @@ img[src="./images/stack/Git.svg"]:hover {
 .skills-container {
   padding: 15rem 0;
   width: 100vw;
+  min-width: 120rem;
   height: fit-content;
   display: flex;
   flex-direction: row;
@@ -573,6 +574,7 @@ img[src="./images/stack/Git.svg"]:hover {
 /* ************ contact form section ************** */
 .contact-wrapper {
   width: 100%;
+  min-width: 120rem;
   height: fit-content;
   background-color: rgba(0, 0, 0, 0.07);
   padding: 8rem 0;
@@ -639,6 +641,7 @@ i {
 .footer-section {
   position: relative;
   width: 100%;
+  min-width: 120rem;
   height: 19rem;
   display: flex;
   flex-direction: row;
