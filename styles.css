@@ -556,8 +556,7 @@ img[src="./images/stack/Git.svg"]:hover {
 }
 .faded-text-container {
   overflow-x: hidden;
-  width: 100%;
-  min-width: 120rem;
+  width: 110rem;
   height: fit-content;
 }
 .faded-skill-text {
